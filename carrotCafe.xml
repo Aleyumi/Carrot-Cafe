@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="carrotCafe.css"?>
+<!--DTD-->
+<!DOCTYPE carrotCafe [
+    <!ELEMENT carrotCafe (menu)>
+    <!ELEMENT menu (carrotCake, chocolateCake, lemonCake, orangeAndPoppyseedCake)>
+    <!ELEMENT carrotCake (product, price, description)>
+    <!ELEMENT product (#PCDATA)>
+    <!ELEMENT price (#PCDATA)>
+    <!ELEMENT description (#PCDATA)>
+
+    <!ELEMENT chocolateCake (product, price, description)>
+    <!ELEMENT product (#PCDATA)>
+    <!ELEMENT price (#PCDATA)>
+    <!ELEMENT description (#PCDATA)>
+
+    <!ELEMENT lemonCake (product, price, description)>
+    <!ELEMENT product (#PCDATA)>
+    <!ELEMENT price (#PCDATA)>
+    <!ELEMENT description (#PCDATA)>
+
+    <!ELEMENT orangeAndPoppyseedCake (product, price, description)>
+    <!ELEMENT product (#PCDATA)>
+    <!ELEMENT price (#PCDATA)>
+    <!ELEMENT description (#PCDATA)>
+]>
+
+<carrotCafe>
+    <menu>
+        <carrotCake>
+            <product>Carrot Cake</product>
+            <price>$15</price>
+            <description>Delicious afternoon treat with complementary coffee</description>
+        </carrotCake>
+
+        <chocolateCake>
+            <product>Chocolate Cake</product>
+            <price>$15</price>
+            <description>Delicious afternoon treat with complementary coffee</description>
+        </chocolateCake>
+
+        <lemonCake>
+            <product>Lemon Cake</product>
+            <price>$15</price>
+            <description>Delicious afternoon treat with complementary coffee</description>
+        </lemonCake>
+
+        <orangeAndPoppyseedCake>
+            <product>Orange and Poppyseed Cake</product>
+            <price>$15</price>
+            <description>Delicious afternoon treat with complementary coffee</description>
+        </orangeAndPoppyseedCake>
+    </menu>
+</carrotCafe>
