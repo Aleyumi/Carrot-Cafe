@@ -1,0 +1,42 @@
+carrotCafe {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #fffaf0;
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+menu {
+  display: block;
+  margin-top: 10px;
+}
+
+carrotCake,
+chocolateCake,
+lemonCake,
+orangeAndPoppyseedCake {
+  display: block;
+  background-color: #ffdead;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+price {
+  display: block;
+  font-weight: bold;
+  color: #d2691e;
+  margin-bottom: 5px;
+}
+
+description {
+  display: block;
+  font-size: 14px;
+  color: #333;
+}
