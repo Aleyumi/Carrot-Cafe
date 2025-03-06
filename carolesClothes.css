@@ -1,4 +1,4 @@
-carrotCafe {
+clothes {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -11,15 +11,15 @@ carrotCafe {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-menu {
+products {
   display: block;
   margin-top: 10px;
 }
 
-carrotCake,
-chocolateCake,
-lemonCake,
-orangeAndPoppyseedCake {
+shiftDress,
+wraparoundSkirt,
+cardigan,
+dressHat {
   display: block;
   background-color: #ffdead;
   padding: 10px;
