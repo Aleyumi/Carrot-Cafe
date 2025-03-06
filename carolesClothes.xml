@@ -28,25 +28,25 @@
 <clothes>
     <products>
         <shiftDress>
-            <product>Shift dress</product>
+            <product>Shift dress photo</product>
             <price>$45</price>
             <description>Simple shift, available in two colours. 100% cotton</description>
         </shiftDress>
 
         <wraparoundSkirt>
-            <product>Wraparound skirt</product>
+            <product>Wraparound skirt photo</product>
             <price>$30</price>
             <description>Simple wraparound skirt, available in two colours. 100% cotton</description>
         </wraparoundSkirt>
 
         <cardigan>
-            <product>Cardigan</product>
+            <product>Cardigan photo</product>
             <price>$70</price>
             <description>Winter cardigan, available in two colours. 100% wool</description>
         </cardigan>
 
         <dressHat>
-            <product>Dress hat</product>
+            <product>Dress hat photo</product>
             <price>$20</price>
             <description>Stylish dress hat, available in two colours. 100% linen</description>
         </dressHat>
