@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="carrotCafe.css"?>
+<!--DTD-->
+<!DOCTYPE clothes [
+    <!ELEMENT clothes (menu)>
+    <!ELEMENT products (shiftDress, wraparoundSkirt, cardigan, dressHat)>
+    <!ELEMENT shiftDress (product, price, description)>
+    <!ELEMENT product (#PCDATA)>
+    <!ELEMENT price (#PCDATA)>
+    <!ELEMENT description (#PCDATA)>
+
+    <!ELEMENT wraparoundSkirt (product, price, description)>
+    <!ELEMENT product (#PCDATA)>
+    <!ELEMENT price (#PCDATA)>
+    <!ELEMENT description (#PCDATA)>
+
+    <!ELEMENT cardigan (product, price, description)>
+    <!ELEMENT product (#PCDATA)>
+    <!ELEMENT price (#PCDATA)>
+    <!ELEMENT description (#PCDATA)>
+
+    <!ELEMENT dressHat (product, price, description)>
+    <!ELEMENT product (#PCDATA)>
+    <!ELEMENT price (#PCDATA)>
+    <!ELEMENT description (#PCDATA)>
+]>
+
+<clothes>
+    <products>
+        <shiftDress>
+            <product>Shift dress</product>
+            <price>$45</price>
+            <description>Simple shift, available in two colours. 100% cotton</description>
+        </shiftDress>
+
+        <wraparoundSkirt>
+            <product>Wraparound skirt</product>
+            <price>$30</price>
+            <description>Simple wraparound skirt, available in two colours. 100% cotton</description>
+        </wraparoundSkirt>
+
+        <cardigan>
+            <product>Cardigan</product>
+            <price>$70</price>
+            <description>Winter cardigan, available in two colours. 100% wool</description>
+        </cardigan>
+
+        <dressHat>
+            <product>Dress hat</product>
+            <price>$20</price>
+            <description>Stylish dress hat, available in two colours. 100% linen</description>
+        </dressHat>
+    </menu>
+</clothes>
