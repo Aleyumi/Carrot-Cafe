@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/css" href="carrotCafe.css"?>
 <!--DTD-->
 <!DOCTYPE clothes [
-    <!ELEMENT clothes (menu)>
+    <!ELEMENT clothes (products)>
     <!ELEMENT products (shiftDress, wraparoundSkirt, cardigan, dressHat)>
     <!ELEMENT shiftDress (product, price, description)>
     <!ELEMENT product (#PCDATA)>
@@ -50,5 +50,5 @@
             <price>$20</price>
             <description>Stylish dress hat, available in two colours. 100% linen</description>
         </dressHat>
-    </menu>
+    </products>
 </clothes>
